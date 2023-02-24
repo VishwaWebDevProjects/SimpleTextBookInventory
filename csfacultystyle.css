@@ -1,0 +1,191 @@
+/* Author: Vishwa Venkateshwaran */
+
+header {
+    margin: 0;
+    font-size: 35px;
+    background-color: #3d4848;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.wordCS {
+    color: #e8651f;
+}
+
+.wordInventory {
+    color: white;
+}
+
+header > h1 {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 25px;
+    align-self: center;
+}
+
+header > img {
+    align-self: center;
+    margin-right: 10px;
+}
+
+body {
+    background-color: #dedede;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    width: 300px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    transition: all 0.3s linear;
+}
+
+.actualImages {
+    box-sizing: border-box;
+    height: auto;
+    max-width: 100%;
+}
+
+.textUnderImg5 {
+    margin: 25px 25px 10px 30px;
+}
+
+.textUnderImg6 {
+    margin: 30px 50px 0px 40px;
+}
+
+.textUnderImg7 {
+    margin: 30px 25px 0px 50px;
+}
+
+.textUnderImg0 {
+    margin: 30px 25px 0px 40px;
+}
+
+.textUI {
+    font-family: sans-serif;
+    font-weight:500;
+}
+
+.seeMoreButton {
+    border-radius: 5px;
+    background-color: orangered;
+    border-color: orangered;
+    padding: 8px 13px;
+    color: white;
+    cursor:pointer;
+    opacity: 0;
+}
+
+.paraTitle {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.fontFamily {
+    font-family: sans-serif;
+}
+
+.container2:hover {
+    transform: scale(1.00005);
+    box-shadow: 7px 5px 15px rgba(33,33,33,.2);
+    cursor: pointer;
+}
+.container2:hover > button {
+    transition: opacity 2s ease-in-out;
+    opacity: 1;
+}
+
+.footer-link {
+    margin-top: 50px;
+}
+
+.footerLink {
+    text-decoration: none;
+    color:#bd3415;
+}
+
+.footerLink:hover {
+    color:#762311;
+}
+
+@media screen and (min-width: 771px) { 
+    .container2 {
+        flex: 1;
+    }
+    
+    .container2_1 {
+        margin: 20px 10px 0px 0px;
+    }
+
+    .container2_2 {
+        margin: 20px 10px 0px 0px;
+    }
+
+    .container2_3 {
+        margin: 20px 10px 0px 0px;
+    }
+
+    .container2_4 {
+        margin: 20px 0px 0px 0px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 770px) { 
+    .container2 {
+        flex: 45%;
+    }  
+    
+    .container2_1 {
+        margin: 20px 10px 0px 0px;
+    }
+
+    .container2_2 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .container2_3 {
+        margin: 20px 10px 0px 0px;
+    }
+
+    .container2_4 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    header > h1 {
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .container2 {
+        flex: calc(700px);
+    }  
+    
+    .container2_1 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .container2_2 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .container2_3 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .container2_4 {
+        margin: 20px 0px 0px 0px;
+    }
+
+    header > h1 {
+        font-size: 20px;
+    }
+}

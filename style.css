@@ -1,0 +1,91 @@
+/* Author: Vishwa Venkateshwaran */
+
+body {
+    background-color: #dedede;
+}
+
+.flex-container {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header {
+    margin: 0;
+    font-size: 35px;
+    background-color: #3d4848;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+header > h1 {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 35px;
+    margin-left: 25px;
+    align-self: center;
+}
+
+.wordTB {
+    color: #e8651f;
+}
+
+.wordInventory {
+    color: white;
+}
+
+header > img {
+    align-self: center;
+    margin-right: 10px;
+}
+
+.indentation {
+    margin-left: 12px;
+}
+
+.moreIndentation {
+    margin-left: 25px;
+}
+
+.paraTitle {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.fontFamily {
+    font-family: sans-serif;
+}
+
+.facultyLink {
+    text-decoration: none;
+    color:#9a2b09;
+}
+
+.hide {
+    display: none;
+}
+
+.facultyLink:hover ~ .hide {
+    display: block;
+}
+
+
+@media screen and (min-width: 550px) { 
+    .flex-container2 {
+        max-width: 100%;
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 549px) { 
+    .flex-container2 {
+        max-width: 100%;
+        flex: 100%;
+    }
+
+    .sectionContainer2 {
+        margin-top: 25px;
+    }
+}
